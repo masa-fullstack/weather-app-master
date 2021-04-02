@@ -43,7 +43,7 @@ const useWeather: UseWeather = (woeid) => {
     any
   >(
     currentPosition
-      ? `http://localhost:8080/https://www.metaweather.com/api/location/search/?lattlong=${currentPosition.coords.latitude},${currentPosition.coords.longitude}`
+      ? `${process.env.NEXT_PUBLIC_PROXY}https://www.metaweather.com/api/location/search/?lattlong=${currentPosition.coords.latitude},${currentPosition.coords.longitude}`
       : null,
     {
       // windowのフォーカス時にRevalidateしないように設定
@@ -65,7 +65,7 @@ const useWeather: UseWeather = (woeid) => {
     any
   >(
     targetWoeid
-      ? `http://localhost:8080/https://www.metaweather.com/api/location/${targetWoeid}/`
+      ? `${process.env.NEXT_PUBLIC_PROXY}https://www.metaweather.com/api/location/${targetWoeid}/`
       : null,
     {
       // windowのフォーカス時にRevalidateしないように設定
