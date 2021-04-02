@@ -76,7 +76,7 @@ const Details: React.FC<Props> = (props) => {
           </div>
         </div>
       </div>
-      <footer className="w-full h-6 flex justify-center item-center text-white mb-10">
+      <footer className="w-full h-6 flex justify-center item-center text-white mt-3 mb-10">
         <div className="border-t text-center pt-5">
           created by masa @ DevChallenges.io
         </div>

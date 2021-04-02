@@ -25,25 +25,25 @@ const Overview: React.FC<Props> = (props) => {
           </div>
         </div>
         <div className="flex flex-col items-center">
-          <div className="my-20">
+          <div className="md:my-20 my-1">
             <Icon
               Abbreviation={
                 props.locationWeekly.consolidated_weather[0].weather_state_abbr
               }
-              width={234}
-              height={234}
+              width={180}
+              height={180}
             />
           </div>
-          <div className="my-12">
-            <span className="font-bold text-9xl">
+          <div className="md:my-12 my-3">
+            <span className="font-bold md:text-9xl text-3xl">
               {props.locationWeekly.consolidated_weather[0].the_temp.toFixed(0)}
             </span>
-            <span className="text-4xl text-gray-400">℃</span>
+            <span className="md:text-4xl text-xl text-gray-400">℃</span>
           </div>
-          <div className="text-4xl text-gray-400 mb-10">
+          <div className="md:text-4xl text-xl text-gray-400 md:mb-10 mb-2">
             {props.locationWeekly.consolidated_weather[0].weather_state_name}
           </div>
-          <div className="text-gray-400 mb-5">
+          <div className="text-gray-400 md:mb-5 mb-1">
             Today・{format(new Date(props.locationWeekly.time), 'E. d MMM')}
           </div>
           <div className="flex align-center text-gray-400">
