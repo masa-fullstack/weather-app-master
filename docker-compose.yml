@@ -7,14 +7,10 @@ services:
     container_name: weather-app-master
     ports:
       - "4001:3000"
+      - "8080:8080"
     volumes:
       - ./app:/usr/src/app
       - node_modules_volume:/usr/src/app/node_modules
     tty: true
     stdin_open: true
     command: "yarn dev"
-  cors-anywhere:
-    image: "redocly/cors-anywhere"
-    container_name: cors-anywhere
-    ports:
-      - "8080:8080"
