@@ -8,7 +8,7 @@
 
 <div align="center">
   <h3>
-    <a href="">
+    <a href="https://weather-app-master-psi.vercel.app/">
       Demo
     </a>
     <span> | </span>
@@ -33,11 +33,13 @@
 
 ## Overview
 
-![screenshot](./images/demo.gif)
+![screenshot](./images/demo.png)
 
-Developed with NextJS + Tailwindcss.<br/>
+Developed with NextJS + react-select + Tailwindcss.<br/>
 <br/>
 For the NextJS template, I used the NextJS Typescript Boilerplate from the official examples.<br/>
+<br/>
+In order to support CORS, we used the NEXTJS API as PROXY.
 <br/>
 For CSS, I used Tailwindcss.<br/>
 During development, I used docker-compose to build the development environment.<br/>
@@ -50,6 +52,7 @@ Thanks for viewing :)
 
 - [NextJS](https://nextjs.org/)
 - [NextJS Typescript Boilerplate](https://github.com/vercel/next.js/tree/master/examples/with-typescript-eslint-jest)
+- [React Select](https://react-select.com/)
 - [TypeScript](https://www.typescriptlang.org/)
 - [Tailwindcss](https://tailwindcss.com/)
 - [Docker](https://www.docker.com/)
