@@ -1,0 +1,17 @@
+{
+  "id": 6643273465593856,
+  "weather_state_name": "Heavy Cloud",
+  "weather_state_abbr": "hc",
+  "wind_direction_compass": "NNE",
+  "created": "2021-03-21T03:20:04.206265Z",
+  "applicable_date": "2021-03-21",
+  "min_temp": 6.425000000000001,
+  "max_temp": 12.135,
+  "the_temp": 11.265,
+  "wind_speed": 5.744088220549326,
+  "wind_direction": 12.839586643957745,
+  "air_pressure": 1029,
+  "humidity": 59,
+  "visibility": 11.369539389962618,
+  "predictability": 71
+}

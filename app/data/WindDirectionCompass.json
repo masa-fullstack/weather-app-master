@@ -1,0 +1,18 @@
+{
+  "N": "rotate-0",
+  "NNE": "rotate-22",
+  "NE": "rotate-45",
+  "ENE": "rotate-68",
+  "E": "rotate-90",
+  "ESE": "rotate-112",
+  "SE": "rotate-135",
+  "SSE": "rotate-158",
+  "S": "rotate-180",
+  "SSW": "rotate-202",
+  "SW": "rotate-225",
+  "WSW": "rotate-248",
+  "W": "rotate-270",
+  "WNW": "rotate-292",
+  "NW": "rotate-315",
+  "NNW": "rotate-338"
+}

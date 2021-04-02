@@ -1,0 +1,72 @@
+[
+  {
+    "distance": 28964,
+    "title": "Osaka",
+    "location_type": "City",
+    "woeid": 15015370,
+    "latt_long": "34.6775,135.5032"
+  },
+  {
+    "distance": 31272,
+    "title": "Kyoto",
+    "location_type": "City",
+    "woeid": 15015372,
+    "latt_long": "35.098129,135.718933"
+  },
+  {
+    "distance": 60837,
+    "title": "Kobe",
+    "location_type": "City",
+    "woeid": 1117545,
+    "latt_long": "34.757332,135.106766"
+  },
+  {
+    "distance": 111559,
+    "title": "Nagoya",
+    "location_type": "City",
+    "woeid": 1117817,
+    "latt_long": "35.149860,136.926224"
+  },
+  {
+    "distance": 306885,
+    "title": "Hiroshima",
+    "location_type": "City",
+    "woeid": 1117227,
+    "latt_long": "34.479988,132.437363"
+  },
+  {
+    "distance": 354719,
+    "title": "Yokohama",
+    "location_type": "City",
+    "woeid": 1118550,
+    "latt_long": "35.452702,139.595123"
+  },
+  {
+    "distance": 364045,
+    "title": "Kawasaki",
+    "location_type": "City",
+    "woeid": 1117502,
+    "latt_long": "35.556332,139.675201"
+  },
+  {
+    "distance": 372278,
+    "title": "Saitama",
+    "location_type": "City",
+    "woeid": 1116753,
+    "latt_long": "35.915611,139.651657"
+  },
+  {
+    "distance": 372627,
+    "title": "Tokyo",
+    "location_type": "City",
+    "woeid": 1118370,
+    "latt_long": "35.670479,139.740921"
+  },
+  {
+    "distance": 464268,
+    "title": "Kitakyushu",
+    "location_type": "City",
+    "woeid": 1110809,
+    "latt_long": "33.845470,130.848557"
+  }
+]
