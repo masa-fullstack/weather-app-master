@@ -4,9 +4,9 @@
   "license": "MIT",
   "version": "1.0.0",
   "scripts": {
-    "dev": "concurrently \"next dev\" \"node cors.js\"",
-    "build": "concurrently \"next build\" \"node cors.js\"",
-    "start": "concurrently \"next start\" \"node cors.js\"",
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
     "type-check": "tsc --pretty --noEmit",
     "format": "prettier --write .",
     "lint": "eslint . --ext ts --ext tsx --ext js",
@@ -27,7 +27,6 @@
   },
   "dependencies": {
     "@material-ui/core": "^4.11.3",
-    "concurrently": "^6.0.0",
     "cors-anywhere": "^0.4.4",
     "date-fns": "^2.19.0",
     "next": "^10.1.2",
